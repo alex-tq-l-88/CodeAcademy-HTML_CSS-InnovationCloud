@@ -1,0 +1,184 @@
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 100;
+}
+
+.container {
+	margin: 0 auto;
+	max-width: 940px; 
+	padding: 0px; 
+}
+
+
+/* Header */
+.header {
+  height: 800px;
+  text-align: center; 
+  background: url(https://s3.amazonaws.com/codecademy-content/projects/innovation-cloud/bg.jpg) no-repeat center center;
+  background-size: cover;
+}
+
+.header .container {
+	position: relative;
+	top: 200px;
+}
+
+.header h1 {
+	font-size: 80px;
+	color: #f8f8ff;
+	line-height: 100px; 
+	margin-top: 0;
+	margin-bottom: 80px;
+  text-transform: uppercase;
+}
+
+@media (min-width:850px) {
+	.header h1 {
+		font-size: 120px;
+	}
+}
+
+.header p {
+	color: #f8f8ff;
+  font-weight: 500;
+	letter-spacing: 8px;
+	margin-bottom: 40px;
+	margin-top: 0;
+  text-transform: uppercase;
+}
+
+.btn {
+  background: #000000;
+  color: white;
+  font-size: 20px;
+  padding: 10px 30px;
+  text-decoration: none;
+}
+
+.btn:hover {
+	background: #117bff;
+  color: white;
+	cursor: pointer; 
+  text-decoration: none;
+	transition: background .5s;
+}
+
+
+/* Nav */
+.nav .container {
+  background: black;
+  display: block;
+  max-width: 100%;
+  margin: 0px;
+}
+
+.nav ul {
+	background: black;
+  color: white;
+  list-style: none;
+	margin: 0 auto; 
+	padding: 30px 0px 30px 100px;
+	text-align: left; 
+}
+
+.nav ul li {
+  color: white;
+  display: inline-block;
+  margin: 0px 30px 0px 5px;
+}
+
+.nav ul li: hover {
+  			color: grey;
+				}
+
+
+/* Main */
+.main .container {
+	margin: 80px auto;
+}
+
+.main img {
+  				height: 130px;
+  				margin: 20px 20px 20px -10px;
+  				float: left;
+					}
+
+
+/* Jumbotron */
+.jumbotron {
+	height: 600px; 
+	text-align: right;
+  background: url(https://s3.amazonaws.com/codecademy-content/projects/innovation-cloud/jumbotron_bg.jpg) no-repeat;
+  background-size: cover;
+  padding: 20px;
+}
+
+.jumbotron .container {
+	position: relative;
+	top: 220px;
+}
+
+
+.jumbotron .btn {
+  background: #000000;
+  color: white;
+  font-size: 13px;
+  padding: 10px 30px;
+  margin-top: 30px;
+  text-decoration: none;
+  position: relative;
+}
+
+.jumbotron .btn:hover {
+	background: #117bff;
+  color: white;
+	cursor: pointer; 
+  text-decoration: none;
+	transition: background .5s;
+}
+
+
+/* Footer */
+.footer { 
+  background: black;
+  margin: 0px;
+  padding: 20px;
+}
+
+.footer p {
+  font-size: 10px;
+  color: white;
+  margin-left: 100px;
+}
+
+/* Media Queries */
+@media (max-width: 500px) {
+  .header h1 {
+    font-size: 50px;
+    line-height: 64px;
+  }
+
+  .main, .jumbotron {
+    padding: 0 30px;
+  }
+
+  .main img {
+    width: 100%;
+  }
+}
+
+#jumboP1 {
+  color: white;
+  font-weight: 600;
+  font-size:20px;
+}
+
+#jumboP2 {
+  color:white;
+  margin-bottom: 20px;
+}
